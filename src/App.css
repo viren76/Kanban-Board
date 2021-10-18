@@ -1,0 +1,20 @@
+.App{
+    width: 100%;
+    background-color: #9388A2;
+    min-height: 100vh;
+}
+
+.todo{
+    min-width: 100%;
+    height: 100%;
+    padding: 30px 20px;
+}
+
+.todo_boards{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    min-height: 700px;
+    flex: 1;
+
+}
